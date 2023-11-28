@@ -72,11 +72,11 @@
 
 [![Bytes Counter Shot][product-screenshot]](https://makingdevices.com/NightUSB)
 
-The PIC18F14k50 is a USB2.0 fully compatible, so this small dev board aims to explore the USB communication: Simulating mouse&keyboard, make small scripts for BADUSB behaviour, and so much else can be done with this microcontroller. However, it does not count on isolation between the PIC and the USB, so it should be handled with much care. 
+The PIC18F14k50 is USB-2.0 fully compatible, so this small dev board aims to explore the USB communication: Simulating mouse&keyboard, make small scripts for BADUSB behaviour, and so much else can be done with this microcontroller. However, it does not count on isolation between the PIC and the USB, so it should be handled quite carefully. 
 
 On the other hand, most of the IO pins of the PIC18F are available in the board, so even if you dont have any project with an USB, you can use the board as a normal dev board.
 
-This device is under development, so I do encourage you to not assembly, order any PCB or use any software from this repository until the project is finished.
+This project is finished, and the provided .hex file and software code is tested. The code simulates a small movement of the mouse every 15s, with a small blink of the LED. This will keep your PC alive for longer sesions of automated tests or anything else. (NOT FOR Remote work abuse!!)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,7 +92,11 @@ This device is under development, so I do encourage you to not assembly, order a
 <!-- GETTING STARTED -->
 
 ## Build one
-NOT RECOMMENDED AS THE DEVICE IS UNDER DEVELOPMENT
+Documentation is updated.
+
+1. Get the gerber files for the latest version: [V0.1](https://github.com/makingdevices/NightUSB/blob/main/Gerber/nightUSBv01.zip) 
+2. Send them to a PCB manufacturer ([Our Sponsor is PCBWAY][sponsor-url])
+3. You should solder all the components in the board. ([The schematic is available here v0.1][schematic-url])
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,6 +105,7 @@ NOT RECOMMENDED AS THE DEVICE IS UNDER DEVELOPMENT
 
 Instructions of use:
 
+- The .hex files and software provided will emulate a mouse that will avoid your computer to go into sleep or standby.
 - Dev Board. Only your imagination can tell you what to do with it :)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -108,16 +113,13 @@ Instructions of use:
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Finish the firmware for the PIC18F14K50
-- [ ] Assembly & First tests
-- [ ] Add USB isolation for next revision
+- [x] Finish the firmware for the PIC18F14K50
+- [x] Assembly & First tests
 
 
 See the [open issues](https://github.com/makingdevices/NightUSB/issues) for a full list of proposed features (and known issues).
 
-State: Project <b>UNFINISHED</b> - 08/01/2023
-
-Priority: <b>Medium</b>
+State: Project <b>FINISHED</b> - 28/11/2023
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -180,3 +182,4 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+[schematic-url]: /Output_PDF/schematic_V0_1.pdf
