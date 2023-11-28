@@ -72,7 +72,7 @@
 
 [![Bytes Counter Shot][product-screenshot]](https://makingdevices.com/NightUSB)
 
-The PIC18F14k50 is USB-2.0 fully compatible, so this small dev board aims to explore the USB communication: Simulating mouse&keyboard, make small scripts for BADUSB behaviour, and so much else can be done with this microcontroller. However, it does not count on isolation between the PIC and the USB, so it should be handled quite carefully. 
+The PIC18F14k50 is USB-2.0 fully compatible, so this small dev board aims to explore the USB communication: Simulating mouse, keyboard, make small scripts for BADUSB behaviour... And so much else can be done with this microcontroller! However, it does not count on isolation between the PIC and the USB, so it should be handled quite carefully. 
 
 On the other hand, most of the IO pins of the PIC18F are available in the board, so even if you dont have any project with an USB, you can use the board as a normal dev board.
 
@@ -164,7 +164,7 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [sponsor-url]: https://www.pcbway.com/?from=makingdevices
 [sponsor-screenshot]: /images/PCB_sponsor.png
 [product-screenshot]: images/screenshot.jpg
-[PIC]: https://img.shields.io/badge/PIC18LF14K50-000000?style=for-the-badge
+[PIC]: https://img.shields.io/badge/PIC18F14K50-000000?style=for-the-badge
 [PIC-url]: http://ww1.microchip.com/downloads/en/devicedoc/40001350f.pdf
 [kicad-shield]: https://img.shields.io/badge/kicad-0b03fc?style=for-the-badge&logo=kicad&logoColor=white
 [kicad-url]: https://www.kicad.org/
@@ -182,4 +182,4 @@ Other Links: [LinkTree](https://makingdevices.com/links/)
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-[schematic-url]: /Output_PDF/schematic_V0_1.pdf
+[schematic-url]: /Output_PDF/Schematic_V0_1.pdf
